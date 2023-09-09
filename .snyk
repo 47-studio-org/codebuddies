@@ -1,0 +1,72 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - nightmare > debug:
+        patched: '2022-08-19T00:34:29.067Z'
+    - lint-staged > micromatch > snapdragon > debug:
+        patched: '2022-08-19T00:34:29.067Z'
+    - nightmare > electron > electron-download > debug:
+        patched: '2022-08-19T00:34:29.067Z'
+    - lint-staged > micromatch > braces > snapdragon > debug:
+        patched: '2022-08-19T00:34:29.067Z'
+    - lint-staged > micromatch > extglob > snapdragon > debug:
+        patched: '2022-08-19T00:34:29.067Z'
+    - lint-staged > micromatch > nanomatch > snapdragon > debug:
+        patched: '2022-08-19T00:34:29.067Z'
+    - nightmare > electron > electron-download > nugget > debug:
+        patched: '2022-08-19T00:34:29.067Z'
+    - nightmare > electron > electron-download > sumchecker > debug:
+        patched: '2022-08-19T00:34:29.067Z'
+    - lint-staged > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2022-08-19T00:34:29.067Z'
+  'npm:extend:20180424':
+    - all-contributors-cli > request > extend:
+        patched: '2022-08-19T00:34:29.067Z'
+    - chromedriver > request > extend:
+        patched: '2022-08-19T00:34:29.067Z'
+    - nightmare > electron > electron-download > nugget > request > extend:
+        patched: '2022-08-19T00:34:29.067Z'
+    - lint-staged > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2022-08-19T00:34:29.067Z'
+  SNYK-JS-LODASH-567746:
+    - all-contributors-cli > lodash:
+        patched: '2022-08-19T00:34:29.067Z'
+    - all-contributors-cli > async > lodash:
+        patched: '2022-08-19T00:34:29.067Z'
+    - all-contributors-cli > inquirer > lodash:
+        patched: '2022-08-19T00:34:29.067Z'
+    - lint-staged > lodash:
+        patched: '2022-08-19T00:34:29.067Z'
+    - lint-staged > jest-validate > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2022-08-19T00:34:29.067Z'
+  'npm:ms:20170412':
+    - nightmare > debug > ms:
+        patched: '2022-08-19T00:34:29.067Z'
+    - lint-staged > micromatch > snapdragon > debug > ms:
+        patched: '2022-08-19T00:34:29.067Z'
+    - nightmare > electron > electron-download > debug > ms:
+        patched: '2022-08-19T00:34:29.067Z'
+    - lint-staged > micromatch > braces > snapdragon > debug > ms:
+        patched: '2022-08-19T00:34:29.067Z'
+    - lint-staged > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2022-08-19T00:34:29.067Z'
+    - lint-staged > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2022-08-19T00:34:29.067Z'
+    - nightmare > electron > electron-download > nugget > debug > ms:
+        patched: '2022-08-19T00:34:29.067Z'
+    - nightmare > electron > electron-download > sumchecker > debug > ms:
+        patched: '2022-08-19T00:34:29.067Z'
+    - lint-staged > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2022-08-19T00:34:29.067Z'
+  'npm:stringstream:20180511':
+    - all-contributors-cli > request > stringstream:
+        patched: '2022-08-19T00:34:29.067Z'
+    - chromedriver > request > stringstream:
+        patched: '2022-08-19T00:34:29.067Z'
+    - nightmare > electron > electron-download > nugget > request > stringstream:
+        patched: '2022-08-19T00:34:29.067Z'
+    - lint-staged > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2022-08-19T00:34:29.067Z'
